@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặng Anh Tuấn - Liên hệ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <header>
+        <h1> Chào mừng đến với Trang WEB của tôi</h1>      
+        <h2>Nhấp vào liên kết trên để khám phá thêm thông tin:</h2>
+        <nav>
+            <ul>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="skills.html">Kỹ năng</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+     </header>
+     <section>
+        <h2>Liên hệ với tôi</h2>
+        <p>
+            Nếu bạn có bất kỳ câu hỏi nào hoặc muốn biết thêm thông tin, vui lòng điền vào biểu mẫu dưới đây:
+        </p>
+     </section>
+     
+     <form action="#" method="post">
+        <fieldset>
+            <legend>Thông tin</legend>
+            <p>
+                <label for="name">Họ và tên:</label><br>
+                <input type="text" id="name" name="name"
+                       required minlength="2">
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"
+                       required>
+            </p>
+            <p>
+                <label for="phone">Số điện thoại:</label><br>
+                <input type="tel" id="phone" name="phone"
+                       pattern="[0-9]{10,11}">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Nội dung</legend>
+            <p>
+                <label for="subject">Chủ đề:</label><br>
+                <select id="subject" name="subject">
+                    <option value="hoc_tap">Học tập</option>
+                    <option value="tu_van">Tư vấn</option>
+                    <option value="khac">Khác</option>
+                </select>
+            </p>
+            <p>
+                <label for="message">Tin nhắn:</label><br>
+                <textarea id="message"
+                          name="message"
+                          rows="5"></textarea>
+            </p>
+        </fieldset>
+        <br>
+        <button type="submit">Gửi</button>
+        <button type="reset">Xóa</button>
+
+    </form>
+    
+   <footer>
+    <hr>
+    <p> copy; 2026 Đặng Anh Tuấn</p>
+
+    <p>
+        📧 <a href="mailto:24150201@st.phenikaa-uni.edu.vn">
+            24150201@st.phenikaa-uni.edu.vn
+        </a>
+    </p>
+
+    <p>
+        Cập nhật:
+        <time datetime="2026-06-27">27/06/2026</time>
+    </p>
+</footer>
+
+
+</body>
+</html>
